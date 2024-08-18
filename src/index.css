@@ -29,6 +29,9 @@ body {
 
 .btn {
     background: var(--color-bg-dark);
+    height: 63px;
+    align-items: center;
+    justify-content: center;
     border-radius: 0.8rem;
     padding: 0.8rem;
     font-size: 1.6rem;
@@ -77,11 +80,6 @@ h2 {
     font-size: 2rem;
 }
 
-
-
-
-
-
 /* NOTES PAGE */
 .notes__header {
     display: flex;
@@ -91,7 +89,6 @@ h2 {
     background: var(--color-bg-black);
     z-index: 9;
 }
-
 
 .notes__header input {
     padding: 0.7rem 1rem;
@@ -155,10 +152,6 @@ h2 {
     right: 7rem;
     padding: 1rem;
 }
-
-
-
-
 
 /* CREATE NOTE & EDIT NOTE PAGE */
 .create-note__header {
